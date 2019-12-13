@@ -12,6 +12,7 @@ export default class SvgContainer extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
+            numberOfClicks: 0
         };
 
         // console.log("IwpDesignerContainer:24> Incoming Animation: " , props.animation );
@@ -22,14 +23,14 @@ export default class SvgContainer extends React.Component {
 
     onMouseClick(event) {
         console.log("SvgContainer.onMouseClick:25> Click Event: " , event);
-        this.setState( {  })
+        this.setState( { numberOfClicks: this.state.numberOfClicks + 1 })
     }
 
     render() {
 
         return (
-            <div>
-                <h1>SvgContainer</h1>
+            <div onClick={this.onMouseClick}>
+                <h1>SvgContainer Number Of Clicks: {this.state.numberOfClicks}</h1>
             </div>
         );
     }
