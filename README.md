@@ -1,4 +1,23 @@
+# Iwp Svg Prototype
+
+## Roadmap
+
+1. Get development Environment online
+
+2. Get Webstorm running smoothly, so that we're all using the same tools
+    (Could be hardcode and use vi!! IDE's are really nice) 
+    
+3. Together: Add in an SVG canvas , and handle mouse events from that canvas back into the ract layer.
+
+
+
+
+## React.js Boilerplate Documentation 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
+
 
 ## Available Scripts
 
