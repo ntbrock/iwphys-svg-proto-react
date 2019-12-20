@@ -6,10 +6,19 @@
 
 2. Get Webstorm running smoothly, so that we're all using the same tools
     (Could be hardcode and use vi!! IDE's are really nice) 
+
     
 3. Together: Add in an SVG canvas , and handle mouse events from that canvas back into the ract layer.
 
+4. Challenge for Jan 3: (2 Weeks) Developer Demo's
 
+    A. Experiment with state and event handlers as much as possible
+    
+    B. Learn the detail of various mouse events
+    
+    C. Define the pro's and con's of using react.js as our new animator layer
+        an alternative is d3.js
+        
 
 
 ## React.js Boilerplate Documentation 
