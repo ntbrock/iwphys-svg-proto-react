@@ -3,6 +3,8 @@ import React from 'react';
 //import update from 'immutability-helper';
 // import diff from 'deep-diff';
 
+import './SvgContainer.css';
+
 /**
  * 2019Dec13 First React Component
  */
@@ -29,8 +31,21 @@ export default class SvgContainer extends React.Component {
     render() {
 
         return (
-            <div onClick={this.onMouseClick}>
+            <div>
                 <h1>SvgContainer Number Of Clicks: {this.state.numberOfClicks}</h1>
+
+                <svg class="iwp-svg" onClick={this.onMouseClick}
+                     style={{"width":"400px", "height":"400px"}} >
+
+                    <rect x="200" y="200" style={{"width":"40px",
+                        "height":"30px",
+                        "fill":"rgb(0,0,255);",
+                        "stroke-width":3,
+                        "stroke":"rgb(0,0,0);"}} />
+
+
+                </svg>
+
             </div>
         );
     }
