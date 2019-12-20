@@ -10,6 +10,9 @@
     
 3. Together: Add in an SVG canvas , and handle mouse events from that canvas back into the react layer.
 
+https://github.com/ntbrock/iwphys-svg-proto-react/commit/4d37bd53439eb7fb30ec3f57736085d738ffeb0b
+
+
 4. Challenge for Jan 3: (2 Weeks) Developer Demo's
 
     A. Experiment with state and event handlers as much as possible
