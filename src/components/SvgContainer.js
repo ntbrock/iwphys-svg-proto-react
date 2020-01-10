@@ -26,6 +26,8 @@ export default class SvgContainer extends React.Component {
     onMouseClick(event) {
         console.log("SvgContainer.onMouseClick:25> Click Event: " , event);
         this.setState( { numberOfClicks: this.state.numberOfClicks + 1 })
+
+
     }
 
     render() {
@@ -34,15 +36,14 @@ export default class SvgContainer extends React.Component {
             <div>
                 <h1>SvgContainer Number Of Clicks: {this.state.numberOfClicks}</h1>
 
-                <svg class="iwp-svg" onClick={this.onMouseClick}
-                     style={{"width":"400px", "height":"400px"}} >
+                <svg className="iwp-svg" onClick={this.onMouseClick}
+                     style={{"width":"500px", "height":"500px"}} >
 
-                    <rect x="200" y="200" style={{"width":"40px",
+                    <rect className="bluerect" x="200" y="200" style={{"width":"40px",
                         "height":"30px",
-                        "fill":"rgb(0,0,255);",
-                        "stroke-width":3,
-                        "stroke":"rgb(0,0,0);"}} />
-
+                        "fill":"rgb(0,0,255)",
+                        "strokeWidth":3,
+                        "stroke":"rgb(0,0,0)"}} />
 
                 </svg>
 

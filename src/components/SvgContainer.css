@@ -1,6 +1,9 @@
 
 svg.iwp-svg {
+    background-color: #eeeeee;
+}
 
-    background-color: darkred;
+.bluerect {
+    fill: red;
 
 }
